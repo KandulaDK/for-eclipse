@@ -28,9 +28,8 @@ public class LandingPage {
 
 	}
 
-	@When("^User Searched with shortName \"([^\"]*)\" and Extracted resultes of the product$")
-	public void user_searched_with_shortname_something_and_extracted_resultes_of_the_product(String shortName)
-			throws Throwable {
+	@When("^User Searched with shortName (.+) and Extracted resultes of the product$")
+    public void user_searched_with_shortname_and_extracted_resultes_of_the_product(String shortName) throws Throwable{
 		dependencyInjection.driver.findElement(By.cssSelector("input[type='search']")).sendKeys(shortName);
 		Thread.sleep(2000);
 		dependencyInjection.landingPgProduct = dependencyInjection.driver.findElement(By.xpath("//h4[@class='product-name']")).getText().split(" ")[0].trim();

@@ -20,8 +20,8 @@ public class OffersPage {
 	 this.dependencyInjection = dependencyInjection;
  }
 
-	@Then("^User searched for same shortname \"([^\"]*)\" in offers page$")
-	public void user_searched_for_same_shortname_something_in_offers_page(String shortName) throws Throwable {
+ @Then("^User searched for same shortname (.+) in offers page$")
+ public void user_searched_for_same_shortname_in_offers_page(String shortName) throws Throwable {
 		dependencyInjection.driver.findElement(By.partialLinkText("Top Deals")).click();
 		
 		Set<String> activeWindows = dependencyInjection.driver.getWindowHandles();
@@ -39,7 +39,7 @@ public class OffersPage {
 	@And("^check is both products are same or not$")
 	public void check_is_both_products_are_same_or_not() throws Throwable {
 		Assert.assertEquals(dependencyInjection.landingPgProduct, dependencyInjection.offerPgProduct);
-		dependencyInjection.driver.close();
+		dependencyInjection.driver.quit();
 	}
 
 }
