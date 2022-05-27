@@ -5,12 +5,12 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 	
-	@Before("@tag1")
+	@Before("@somekTest")
 	public void beforeValidation() {
 		System.out.println("      Before Validation done");
 	}
 	
-	@After("@tag1")
+	@After("@somekTest")
 	public void afterValidation() {
 		System.out.println("      After Validation done");
 	}
