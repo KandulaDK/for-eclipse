@@ -12,9 +12,9 @@ Examples:
   |shortName|
 	|	Tom		|
 	|	Car		|
-	|	cau		|
-	|	Wal		|
-	| cas		|
-	| bea		|
-	| ras		|
-	|	pis		|
+#	|	cau		|
+#	|	Wal		|
+#	| cas		|
+#	| bea		|
+#	| ras		|
+#	|	pis		|
