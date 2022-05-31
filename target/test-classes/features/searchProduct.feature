@@ -8,12 +8,13 @@ When User Searched with shortName <shortName> and Extracted resultes of the prod
 Then User searched for same shortname <shortName> in offers page
 And check is both products are same or not
 
+
 Examples:
   |shortName|
 	|	Tom		|
 	|	Car		|
-#	|	cau		|
-#	|	Wal		|
+	|	cau		|
+	|	Wal		|
 #	| cas		|
 #	| bea		|
 #	| ras		|
