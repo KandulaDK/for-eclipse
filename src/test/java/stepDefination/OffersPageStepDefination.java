@@ -3,10 +3,10 @@ package stepDefination;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
+
 
 import PicoContainer.DependencyInjection;
 import io.cucumber.java.en.And;
