@@ -12,7 +12,7 @@ And check is both products are same or not
 Examples:
   |shortName|
 	|	Tom		|
-#	|	Car		|
+	|	Car		|
 #	|	cau		|
 #	|	Wal		|
 #	| cas		|

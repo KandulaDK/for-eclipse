@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 				"html:target/TestNGcucumber.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", 
 				"rerun:target/failed_scenarios.txt"},
-		tags= "@SearchProducts")
+		tags= "@SearchProducts or @checkOut")
 
 public class JunitTestRunnerTest {
 	

@@ -18,5 +18,5 @@ Examples:
 #	|	Wal		|
 #	| cas		|
 #	| bea		|
-#	| ras		|
+	| ras		|
 #	|	pis		|
